@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/seat-booker/static/css/main.0e6cd795.css",
-    "main.js": "/seat-booker/static/js/main.401ebc30.js",
-    "static/js/787.ef3a79d1.chunk.js": "/seat-booker/static/js/787.ef3a79d1.chunk.js",
-    "index.html": "/seat-booker/index.html",
-    "main.0e6cd795.css.map": "/seat-booker/static/css/main.0e6cd795.css.map",
-    "main.401ebc30.js.map": "/seat-booker/static/js/main.401ebc30.js.map",
-    "787.ef3a79d1.chunk.js.map": "/seat-booker/static/js/787.ef3a79d1.chunk.js.map"
+    "main.css": "/hackathon-seat-booker/static/css/main.0e6cd795.css",
+    "main.js": "/hackathon-seat-booker/static/js/main.e010c95c.js",
+    "static/js/787.ef3a79d1.chunk.js": "/hackathon-seat-booker/static/js/787.ef3a79d1.chunk.js",
+    "index.html": "/hackathon-seat-booker/index.html",
+    "main.0e6cd795.css.map": "/hackathon-seat-booker/static/css/main.0e6cd795.css.map",
+    "main.e010c95c.js.map": "/hackathon-seat-booker/static/js/main.e010c95c.js.map",
+    "787.ef3a79d1.chunk.js.map": "/hackathon-seat-booker/static/js/787.ef3a79d1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e6cd795.css",
-    "static/js/main.401ebc30.js"
+    "static/js/main.e010c95c.js"
   ]
 }
