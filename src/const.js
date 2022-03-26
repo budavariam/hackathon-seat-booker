@@ -8,7 +8,7 @@ export const seatState = {
 export const floors = [
     {
         name: "First Floor",
-        imagePath: "/seat-booker/floor-1.png",
+        imagePath: "/hackathon-seat-booker/floor-1.png",
         imageDim: [828, 404],
         seats: [
             { coord: [45, 73], id: 100, state: seatState.EMPTY },
@@ -33,7 +33,7 @@ export const floors = [
     },
     {
         name: "Second Floor",
-        imagePath: "/seat-booker/floor-2.png",
+        imagePath: "/hackathon-seat-booker/floor-2.png",
         imageDim: [828, 404],
         seats: [
             { coord: [45, 73], id: 100, state: seatState.EMPTY },
