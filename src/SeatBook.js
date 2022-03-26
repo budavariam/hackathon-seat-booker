@@ -1,6 +1,6 @@
 import { useReducer, useEffect } from "react";
 import { floors, seatSize, seatState } from "./const";
-import useFetch from 'use-http';
+// import useFetch from 'use-http';
 import styles from "./SeatBook.module.css";
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
@@ -108,7 +108,7 @@ const SeatBook = () => {
         selectedFloor: null,
         selectedSeat: null,
     })
-    const { get, post, response, loading, error } = useFetch('https://example.com')
+    // const { get, post, response, loading, error } = useFetch('https://example.com')
     useEffect(() => { initializeState() }, [
     ])
 
@@ -126,11 +126,11 @@ const SeatBook = () => {
     }
 
     async function submitData(data) {
-        const { selectedFloor, selectedSeat, selectedDate } = data
+        // const { selectedFloor, selectedSeat, selectedDat } = data
         console.log("SUBMIT DATA", data)
         // const newTodo = await post('/seats', { selectedFloor, selectedSeat, selectedDate })
         const success = true // response.ok
-        dispatch({ type: DISPATCH_ACTION.FINALIZE_SELECTION, success: success, selectedSeat })
+        dispatch({ type: DISPATCH_ACTION.FINALIZE_SELECTION, success: success, selectedSeat: data.selectedSeat })
     }
 
 
