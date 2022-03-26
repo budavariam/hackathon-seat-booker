@@ -1,0 +1,65 @@
+.seat-container {
+  position: relative;
+}
+
+.floor {
+  border: 1px solid #000000;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seat {
+  position: absolute;
+  border: 1px solid #33333388;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.seat.empty {
+  background-color: #00ff0088;
+}
+
+.seat.booked {
+  cursor: default;
+  /* pointer-events: none; */
+  background-color: #ff000088;
+}
+
+.seat.selected {
+  background-color: #ffc40080;
+}
+
+.submitbtn {
+  color: white;
+  background-color: #007bff;
+}
+
+.submitbtn:hover {
+  color: rgb(203, 238, 255);
+}
+
+.submitbtn:active,
+.submitbtn:visited,
+.submitbtn:focus {
+  color: rgb(203, 238, 255);
+}
+
+.submitbtn[disabled] {
+  background-color: #007bff;
+  border-color: #dbdbdb;
+  box-shadow: none;
+  opacity: 0.5;
+}
+
+.header {
+  padding: 20px;
+}
+.header button {
+  margin-right: 5px;
+}
+
+.seatbookdate {
+  margin-top: 20px;
+}
